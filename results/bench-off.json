@@ -1,0 +1,1385 @@
+{
+  "meta": {
+    "sync": "OFF",
+    "computeMs": 1,
+    "seconds": 3,
+    "repeat": 3,
+    "rowsPerTx": 10,
+    "node": "v24.16.0",
+    "turso": "0.8.3",
+    "sqlite": "3.53.0",
+    "platform": "Windows_NT 10.0.26200 x64",
+    "cpus": 16,
+    "cpu": "AMD Ryzen 7 5700U with Radeon Graphics         "
+  },
+  "rows": [
+    {
+      "workload": "disjoint",
+      "engine": "sqlite",
+      "writers": 1,
+      "tx/s (median)": 14740,
+      "tx/s (min-max)": "14206-15233",
+      "retries/commit": 0,
+      "p99 ms": 0.2,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 15233.333333333334,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.15080000000000382,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 14740,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.16529999999966094,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 14206,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.177599999999984,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "sqlite",
+      "writers": 2,
+      "tx/s (median)": 12744,
+      "tx/s (min-max)": "11425-13373",
+      "retries/commit": 0.01,
+      "p99 ms": 0.2,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 13372.666666666666,
+          "retriesPerCommit": 0.005832793259883344,
+          "errors": 0,
+          "p99": 0.19620000000031723,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 11425.333333333334,
+          "retriesPerCommit": 0.006856109230948769,
+          "errors": 0,
+          "p99": 0.22789999999804422,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 12744,
+          "retriesPerCommit": 0.0063036200041849755,
+          "errors": 0,
+          "p99": 0.22409999999945285,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "sqlite",
+      "writers": 4,
+      "tx/s (median)": 10400,
+      "tx/s (min-max)": "9483-10786",
+      "retries/commit": 0.02,
+      "p99 ms": 0.3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 10785.666666666666,
+          "retriesPerCommit": 0.0209537348950768,
+          "errors": 0,
+          "p99": 0.24620000000140863,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 10400,
+          "retriesPerCommit": 0.02278846153846154,
+          "errors": 0,
+          "p99": 0.25120000000242726,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 9483.333333333334,
+          "retriesPerCommit": 0.02397188049209139,
+          "errors": 0,
+          "p99": 0.27560000000084983,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "sqlite",
+      "writers": 8,
+      "tx/s (median)": 9767,
+      "tx/s (min-max)": "9355-21681",
+      "retries/commit": 0.05,
+      "p99 ms": 0.3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 9355,
+          "retriesPerCommit": 0.05772314270443613,
+          "errors": 0,
+          "p99": 0.3241000000052736,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 9766.666666666666,
+          "retriesPerCommit": 0.05392491467576792,
+          "errors": 0,
+          "p99": 0.2754999999961001,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 21681.333333333332,
+          "retriesPerCommit": 0.025259824119057868,
+          "errors": 0,
+          "p99": 0.14149999999790452,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-wal",
+      "writers": 1,
+      "tx/s (median)": 1094,
+      "tx/s (min-max)": "1082-1095",
+      "retries/commit": 0,
+      "p99 ms": 2.7,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 1095,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.73240000000078,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1082,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.697999999996682,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1094,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.529500000004191,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-wal",
+      "writers": 2,
+      "tx/s (median)": 1115,
+      "tx/s (min-max)": "367-1483",
+      "retries/commit": 0.06,
+      "p99 ms": 30.9,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 1482.6666666666667,
+          "retriesPerCommit": 0.05260791366906475,
+          "errors": 0,
+          "p99": 17.11030000000028,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1114.6666666666667,
+          "retriesPerCommit": 0.05532296650717703,
+          "errors": 0,
+          "p99": 30.91599999999744,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 367,
+          "retriesPerCommit": 0.17166212534059946,
+          "errors": 0,
+          "p99": 50.72849999999744,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-wal",
+      "writers": 4,
+      "tx/s (median)": 887,
+      "tx/s (min-max)": "634-894",
+      "retries/commit": 0.25,
+      "p99 ms": 93.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 633.6666666666666,
+          "retriesPerCommit": 0.33719095213045763,
+          "errors": 0,
+          "p99": 129.29499999999825,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 893.6666666666666,
+          "retriesPerCommit": 0.24916076091010816,
+          "errors": 0,
+          "p99": 93.846000000005,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 887.3333333333334,
+          "retriesPerCommit": 0.2535687453042825,
+          "errors": 0,
+          "p99": 90.37099999999919,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-wal",
+      "writers": 8,
+      "tx/s (median)": 825,
+      "tx/s (min-max)": "814-875",
+      "retries/commit": 0.62,
+      "p99 ms": 253.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 814.3333333333334,
+          "retriesPerCommit": 0.6307818256242325,
+          "errors": 0,
+          "p99": 253.84990000000107,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 825.3333333333334,
+          "retriesPerCommit": 0.622778675282714,
+          "errors": 0,
+          "p99": 225.04950000000827,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 874.6666666666666,
+          "retriesPerCommit": 0.5914634146341463,
+          "errors": 0,
+          "p99": 255.1749000000127,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-mvcc",
+      "writers": 1,
+      "tx/s (median)": 4397,
+      "tx/s (min-max)": "4397-4397",
+      "retries/commit": 0,
+      "p99 ms": 0.3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 4396.666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.500899999999092,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 4396.666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.2580000000016298,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 4396.666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.275099999998929,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-mvcc",
+      "writers": 2,
+      "tx/s (median)": 4310,
+      "tx/s (min-max)": "4305-4314",
+      "retries/commit": 0.01,
+      "p99 ms": 0.3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 4305,
+          "retriesPerCommit": 0.012311265969802556,
+          "errors": 0,
+          "p99": 0.3528999999980442,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 4314,
+          "retriesPerCommit": 0.012208314016380777,
+          "errors": 0,
+          "p99": 0.3129999999946449,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 4310.333333333333,
+          "retriesPerCommit": 0.012218699249864667,
+          "errors": 0,
+          "p99": 0.3304000000061933,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-mvcc",
+      "writers": 4,
+      "tx/s (median)": 4276,
+      "tx/s (min-max)": "4273-4281",
+      "retries/commit": 0.04,
+      "p99 ms": 0.5,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 4281.333333333333,
+          "retriesPerCommit": 0.04367798193709125,
+          "errors": 0,
+          "p99": 0.475800000000163,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 4273,
+          "retriesPerCommit": 0.0449333021296513,
+          "errors": 0,
+          "p99": 0.45279999999911524,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 4276.333333333333,
+          "retriesPerCommit": 0.045599812923844414,
+          "errors": 0,
+          "p99": 0.44860000000335276,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "disjoint",
+      "engine": "turso-mvcc",
+      "writers": 8,
+      "tx/s (median)": 9663,
+      "tx/s (min-max)": "4175-17731",
+      "retries/commit": 0,
+      "p99 ms": 3.3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 4175,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 4.822600000014063,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 9662.666666666666,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 3.3166999999957625,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 17731.333333333332,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.0842000000120606,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "sqlite",
+      "writers": 1,
+      "tx/s (median)": 37274,
+      "tx/s (min-max)": "37248-37699",
+      "retries/commit": 0,
+      "p99 ms": 0.1,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 37698.666666666664,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.06210000001010485,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 37274,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.06390000000828877,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 37248,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.06289999998989515,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "sqlite",
+      "writers": 2,
+      "tx/s (median)": 34268,
+      "tx/s (min-max)": "16152-34627",
+      "retries/commit": 0,
+      "p99 ms": 0.1,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 34627,
+          "retriesPerCommit": 0.0022814566667629307,
+          "errors": 0,
+          "p99": 0.0719999999855645,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 34268.333333333336,
+          "retriesPerCommit": 0.002266426730217402,
+          "errors": 0,
+          "p99": 0.07260000001406297,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 16152.333333333334,
+          "retriesPerCommit": 0.004890934230348557,
+          "errors": 0,
+          "p99": 0.15849999999045394,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "sqlite",
+      "writers": 4,
+      "tx/s (median)": 13216,
+      "tx/s (min-max)": "13006-13576",
+      "retries/commit": 0.02,
+      "p99 ms": 0.2,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 13216.333333333334,
+          "retriesPerCommit": 0.01702438901359429,
+          "errors": 0,
+          "p99": 0.19950000001699664,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 13006,
+          "retriesPerCommit": 0.017812291762776156,
+          "errors": 0,
+          "p99": 0.19739999997545965,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 13575.666666666666,
+          "retriesPerCommit": 0.016745647850320428,
+          "errors": 0,
+          "p99": 0.1925000000046566,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "sqlite",
+      "writers": 8,
+      "tx/s (median)": 13518,
+      "tx/s (min-max)": "13318-13523",
+      "retries/commit": 0.04,
+      "p99 ms": 0.2,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 13523,
+          "retriesPerCommit": 0.03924178559984225,
+          "errors": 0,
+          "p99": 0.20650000000023283,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 13518.333333333334,
+          "retriesPerCommit": 0.03962520034521021,
+          "errors": 0,
+          "p99": 0.21259999999892898,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 13318.333333333334,
+          "retriesPerCommit": 0.040470529345513706,
+          "errors": 0,
+          "p99": 0.20929999998770654,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-wal",
+      "writers": 1,
+      "tx/s (median)": 1724,
+      "tx/s (min-max)": "1692-1746",
+      "retries/commit": 0,
+      "p99 ms": 1.3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 1724,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.3144000000029337,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1692.3333333333333,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.3984999999811407,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1746,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.324800000002142,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-wal",
+      "writers": 2,
+      "tx/s (median)": 2765,
+      "tx/s (min-max)": "2692-2826",
+      "retries/commit": 0.03,
+      "p99 ms": 16.7,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 2691.6666666666665,
+          "retriesPerCommit": 0.02873065015479876,
+          "errors": 0,
+          "p99": 16.69440000000759,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2826.3333333333335,
+          "retriesPerCommit": 0.028423163108857178,
+          "errors": 0,
+          "p99": 16.669800000003306,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2764.6666666666665,
+          "retriesPerCommit": 0.029298287918977574,
+          "errors": 0,
+          "p99": 16.75470000001951,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-wal",
+      "writers": 4,
+      "tx/s (median)": 2707,
+      "tx/s (min-max)": "2667-2731",
+      "retries/commit": 0.09,
+      "p99 ms": 48.7,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 2667,
+          "retriesPerCommit": 0.08811398575178103,
+          "errors": 0,
+          "p99": 49.244799999985844,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2707,
+          "retriesPerCommit": 0.08595000615687723,
+          "errors": 0,
+          "p99": 48.72039999999106,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2731.3333333333335,
+          "retriesPerCommit": 0.08579448376861118,
+          "errors": 0,
+          "p99": 48.392399999982445,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-wal",
+      "writers": 8,
+      "tx/s (median)": 473,
+      "tx/s (min-max)": "418-2684",
+      "retries/commit": 0.94,
+      "p99 ms": 306.9,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 2683.6666666666665,
+          "retriesPerCommit": 0.19525524779530493,
+          "errors": 0,
+          "p99": 112.14340000000084,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 418,
+          "retriesPerCommit": 1.2966507177033493,
+          "errors": 0,
+          "p99": 404.2068000000145,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 473.3333333333333,
+          "retriesPerCommit": 0.9415492957746479,
+          "errors": 0,
+          "p99": 306.8980000000156,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-mvcc",
+      "writers": 1,
+      "tx/s (median)": 2883,
+      "tx/s (min-max)": "2554-3054",
+      "retries/commit": 0,
+      "p99 ms": 0.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 2553.6666666666665,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.9285999999847263,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2883.3333333333335,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.7509999999892898,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 3054.3333333333335,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 0.8081000000238419,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-mvcc",
+      "writers": 2,
+      "tx/s (median)": 3027,
+      "tx/s (min-max)": "3008-3028",
+      "retries/commit": 0.03,
+      "p99 ms": 0.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 3027.3333333333335,
+          "retriesPerCommit": 0.026205681567936578,
+          "errors": 0,
+          "p99": 0.8236000000033528,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 3007.6666666666665,
+          "retriesPerCommit": 0.026377036462373934,
+          "errors": 0,
+          "p99": 0.8154000000213273,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 3028,
+          "retriesPerCommit": 0.026750330250990752,
+          "errors": 0,
+          "p99": 0.8277999999700114,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-mvcc",
+      "writers": 4,
+      "tx/s (median)": 6554,
+      "tx/s (min-max)": "6030-6607",
+      "retries/commit": 0.04,
+      "p99 ms": 0.5,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 6030.333333333333,
+          "retriesPerCommit": 0.036648057044939474,
+          "errors": 0,
+          "p99": 0.5182999999960884,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 6606.666666666667,
+          "retriesPerCommit": 0.03526740665993946,
+          "errors": 0,
+          "p99": 0.5138999999617226,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 6553.666666666667,
+          "retriesPerCommit": 0.035400030517267686,
+          "errors": 0,
+          "p99": 0.4744999999529682,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "hot",
+      "engine": "turso-mvcc",
+      "writers": 8,
+      "tx/s (median)": 1074,
+      "tx/s (min-max)": "540-6461",
+      "retries/commit": 0.41,
+      "p99 ms": 209.1,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 6461.333333333333,
+          "retriesPerCommit": 0.08202641353693768,
+          "errors": 0,
+          "p99": 0.6233000000356697,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 539.6666666666666,
+          "retriesPerCommit": 1.0247066090179122,
+          "errors": 0,
+          "p99": 384.98219999996945,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1074.3333333333333,
+          "retriesPerCommit": 0.41172820353707723,
+          "errors": 0,
+          "p99": 209.09889999998268,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "sqlite",
+      "writers": 1,
+      "tx/s (median)": 989,
+      "tx/s (min-max)": "899-1009",
+      "retries/commit": 0,
+      "p99 ms": 1.5,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 898.6666666666666,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.5566000000108033,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 989.3333333333334,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.4567000000388362,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1008.6666666666666,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.4296000000322238,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "sqlite",
+      "writers": 2,
+      "tx/s (median)": 1000,
+      "tx/s (min-max)": "996-1005",
+      "retries/commit": 0.07,
+      "p99 ms": 1.4,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 999.6666666666666,
+          "retriesPerCommit": 0.07469156385461821,
+          "errors": 0,
+          "p99": 1.4186999999801628,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 996,
+          "retriesPerCommit": 0.0749665327978581,
+          "errors": 0,
+          "p99": 1.4349999999976717,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 1005.3333333333334,
+          "retriesPerCommit": 0.07427055702917772,
+          "errors": 0,
+          "p99": 1.4270999999716878,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "sqlite",
+      "writers": 4,
+      "tx/s (median)": 990,
+      "tx/s (min-max)": "989-995",
+      "retries/commit": 0.23,
+      "p99 ms": 1.5,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 995.3333333333334,
+          "retriesPerCommit": 0.23141326188881448,
+          "errors": 0,
+          "p99": 1.423899999994319,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 990,
+          "retriesPerCommit": 0.22962962962962963,
+          "errors": 0,
+          "p99": 1.4591999999829568,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 989.3333333333334,
+          "retriesPerCommit": 0.22742587601078168,
+          "errors": 0,
+          "p99": 1.4569999999948777,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "sqlite",
+      "writers": 8,
+      "tx/s (median)": 737,
+      "tx/s (min-max)": "590-986",
+      "retries/commit": 0.68,
+      "p99 ms": 3.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 986.3333333333334,
+          "retriesPerCommit": 0.5370057451841839,
+          "errors": 0,
+          "p99": 1.6032999999588355,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 590,
+          "retriesPerCommit": 1.0203389830508474,
+          "errors": 0,
+          "p99": 209.74480000004405,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 736.6666666666666,
+          "retriesPerCommit": 0.6755656108597285,
+          "errors": 0,
+          "p99": 3.823999999964144,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-wal",
+      "writers": 1,
+      "tx/s (median)": 631,
+      "tx/s (min-max)": "398-656",
+      "retries/commit": 0,
+      "p99 ms": 3,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 398.3333333333333,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 5.4407000000355765,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 631.3333333333334,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 3.003199999977369,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 656,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.9812000000383705,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-wal",
+      "writers": 2,
+      "tx/s (median)": 305,
+      "tx/s (min-max)": "272-621",
+      "retries/commit": 0.26,
+      "p99 ms": 65.4,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 621.3333333333334,
+          "retriesPerCommit": 0.12285407725321888,
+          "errors": 0,
+          "p99": 65.43040000001201,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 305,
+          "retriesPerCommit": 0.2677595628415301,
+          "errors": 0,
+          "p99": 53.051800000015646,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 272.3333333333333,
+          "retriesPerCommit": 0.26193390452876375,
+          "errors": 0,
+          "p99": 81.73669999995036,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-wal",
+      "writers": 4,
+      "tx/s (median)": 327,
+      "tx/s (min-max)": "196-463",
+      "retries/commit": 0.72,
+      "p99 ms": 328.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 327,
+          "retriesPerCommit": 0.7166156982670744,
+          "errors": 0,
+          "p99": 328.81480000005104,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 463,
+          "retriesPerCommit": 0.48812095032397407,
+          "errors": 0,
+          "p99": 172.85129999998026,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 196,
+          "retriesPerCommit": 1.2414965986394557,
+          "errors": 0,
+          "p99": 431.3594999999623,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-wal",
+      "writers": 8,
+      "tx/s (median)": 425,
+      "tx/s (min-max)": "194-425",
+      "retries/commit": 1.24,
+      "p99 ms": 601.6,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 194,
+          "retriesPerCommit": 2.393470790378007,
+          "errors": 0,
+          "p99": 749.2993000000133,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 424.6666666666667,
+          "retriesPerCommit": 1.2323390894819466,
+          "errors": 0,
+          "p99": 601.5903999999864,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 425,
+          "retriesPerCommit": 1.244705882352941,
+          "errors": 0,
+          "p99": 466.8855999999796,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-mvcc",
+      "writers": 1,
+      "tx/s (median)": 928,
+      "tx/s (min-max)": "813-936",
+      "retries/commit": 0,
+      "p99 ms": 1.6,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 813,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.8497000000206754,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 927.6666666666666,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.59240000002319,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 935.6666666666666,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 1.517200000002049,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-mvcc",
+      "writers": 2,
+      "tx/s (median)": 986,
+      "tx/s (min-max)": "473-1575",
+      "retries/commit": 0,
+      "p99 ms": 4.8,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 1575.3333333333333,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 3.6418999999877997,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 472.6666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 6.163100000005215,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 986.3333333333334,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 4.816900000034366,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-mvcc",
+      "writers": 4,
+      "tx/s (median)": 2753,
+      "tx/s (min-max)": "2718-2759",
+      "retries/commit": 0,
+      "p99 ms": 2.1,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 2752.6666666666665,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.07650000002468,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2758.6666666666665,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.0421000000205822,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 2718,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.070800000044983,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    },
+    {
+      "workload": "compute",
+      "engine": "turso-mvcc",
+      "writers": 8,
+      "tx/s (median)": 5206,
+      "tx/s (min-max)": "5206-5208",
+      "retries/commit": 0,
+      "p99 ms": 2.2,
+      "errors": 0,
+      "dataCorrect": true,
+      "sync": "0",
+      "runs": [
+        {
+          "txPerSec": 5205.666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.2150000000256114,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 5205.666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.1841000000131316,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        },
+        {
+          "txPerSec": 5207.666666666667,
+          "retriesPerCommit": 0,
+          "errors": 0,
+          "p99": 2.1460000000079162,
+          "dataCorrect": true,
+          "syncReadBack": "0"
+        }
+      ]
+    }
+  ]
+}

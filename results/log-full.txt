@@ -1,0 +1,89 @@
+{"workload":"disjoint","engine":"sqlite","writers":1,"tx/s (median)":502,"tx/s (min-max)":"499-503","retries/commit":0,"p99 ms":3.4,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"sqlite","writers":2,"tx/s (median)":497,"tx/s (min-max)":"494-507","retries/commit":0.15,"p99 ms":4,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"sqlite","writers":4,"tx/s (median)":493,"tx/s (min-max)":"487-500","retries/commit":0.48,"p99 ms":7.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"sqlite","writers":8,"tx/s (median)":192,"tx/s (min-max)":"183-402","retries/commit":2.87,"p99 ms":882.3,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-wal","writers":1,"tx/s (median)":448,"tx/s (min-max)":"440-455","retries/commit":0,"p99 ms":3.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-wal","writers":2,"tx/s (median)":437,"tx/s (min-max)":"436-446","retries/commit":0.18,"p99 ms":13.8,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-wal","writers":4,"tx/s (median)":432,"tx/s (min-max)":"423-435","retries/commit":0.53,"p99 ms":255.4,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-wal","writers":8,"tx/s (median)":253,"tx/s (min-max)":"147-261","retries/commit":1.75,"p99 ms":589,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-mvcc","writers":1,"tx/s (median)":442,"tx/s (min-max)":"442-465","retries/commit":0,"p99 ms":3.6,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-mvcc","writers":2,"tx/s (median)":529,"tx/s (min-max)":"528-538","retries/commit":0,"p99 ms":5.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-mvcc","writers":4,"tx/s (median)":550,"tx/s (min-max)":"493-797","retries/commit":0,"p99 ms":11.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"disjoint","engine":"turso-mvcc","writers":8,"tx/s (median)":1722,"tx/s (min-max)":"1709-1781","retries/commit":0,"p99 ms":6.3,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"sqlite","writers":1,"tx/s (median)":471,"tx/s (min-max)":"462-490","retries/commit":0,"p99 ms":3.4,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"sqlite","writers":2,"tx/s (median)":461,"tx/s (min-max)":"461-467","retries/commit":0.17,"p99 ms":4.8,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"sqlite","writers":4,"tx/s (median)":282,"tx/s (min-max)":"196-337","retries/commit":0.9,"p99 ms":332.2,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"sqlite","writers":8,"tx/s (median)":497,"tx/s (min-max)":"495-500","retries/commit":1.1,"p99 ms":113.9,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-wal","writers":1,"tx/s (median)":432,"tx/s (min-max)":"413-448","retries/commit":0,"p99 ms":3.6,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-wal","writers":2,"tx/s (median)":428,"tx/s (min-max)":"424-440","retries/commit":0.18,"p99 ms":20.9,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-wal","writers":4,"tx/s (median)":415,"tx/s (min-max)":"413-441","retries/commit":0.55,"p99 ms":146,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-wal","writers":8,"tx/s (median)":140,"tx/s (min-max)":"122-382","retries/commit":3.81,"p99 ms":898.7,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-mvcc","writers":1,"tx/s (median)":436,"tx/s (min-max)":"434-448","retries/commit":0,"p99 ms":3.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-mvcc","writers":2,"tx/s (median)":422,"tx/s (min-max)":"409-429","retries/commit":0.18,"p99 ms":92.6,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-mvcc","writers":4,"tx/s (median)":203,"tx/s (min-max)":"126-396","retries/commit":0.98,"p99 ms":307.2,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"hot","engine":"turso-mvcc","writers":8,"tx/s (median)":417,"tx/s (min-max)":"417-439","retries/commit":1.23,"p99 ms":493,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"sqlite","writers":1,"tx/s (median)":347,"tx/s (min-max)":"339-348","retries/commit":0,"p99 ms":4.3,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"sqlite","writers":2,"tx/s (median)":332,"tx/s (min-max)":"331-352","retries/commit":0.23,"p99 ms":5.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"sqlite","writers":4,"tx/s (median)":339,"tx/s (min-max)":"334-342","retries/commit":0.69,"p99 ms":7.8,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"sqlite","writers":8,"tx/s (median)":328,"tx/s (min-max)":"324-334","retries/commit":1.64,"p99 ms":257.9,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-wal","writers":1,"tx/s (median)":306,"tx/s (min-max)":"301-312","retries/commit":0,"p99 ms":4.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-wal","writers":2,"tx/s (median)":309,"tx/s (min-max)":"292-309","retries/commit":0.25,"p99 ms":20.1,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-wal","writers":4,"tx/s (median)":291,"tx/s (min-max)":"290-292","retries/commit":0.78,"p99 ms":511.9,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-wal","writers":8,"tx/s (median)":288,"tx/s (min-max)":"284-296","retries/commit":1.81,"p99 ms":964.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-mvcc","writers":1,"tx/s (median)":311,"tx/s (min-max)":"293-314","retries/commit":0,"p99 ms":4.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-mvcc","writers":2,"tx/s (median)":540,"tx/s (min-max)":"537-545","retries/commit":0,"p99 ms":4.9,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-mvcc","writers":4,"tx/s (median)":1011,"tx/s (min-max)":"928-1053","retries/commit":0,"p99 ms":5.5,"errors":0,"dataCorrect":true,"sync":"2"}
+{"workload":"compute","engine":"turso-mvcc","writers":8,"tx/s (median)":1753,"tx/s (min-max)":"1707-1772","retries/commit":0,"p99 ms":6.1,"errors":0,"dataCorrect":true,"sync":"2"}
+{
+  sync: 'FULL',
+  computeMs: 1,
+  seconds: 3,
+  repeat: 3,
+  rowsPerTx: 10,
+  node: 'v24.16.0',
+  turso: '0.8.3',
+  sqlite: '3.53.0',
+  platform: 'Windows_NT 10.0.26200 x64',
+  cpus: 16,
+  cpu: 'AMD Ryzen 7 5700U with Radeon Graphics         '
+}
+┌─────────┬────────────┬──────────────┬─────────┬───────────────┬────────────────┬────────────────┬────────┬────────┬─────────────┬──────┐
+│ (index) │ workload   │ engine       │ writers │ tx/s (median) │ tx/s (min-max) │ retries/commit │ p99 ms │ errors │ dataCorrect │ sync │
+├─────────┼────────────┼──────────────┼─────────┼───────────────┼────────────────┼────────────────┼────────┼────────┼─────────────┼──────┤
+│ 0       │ 'disjoint' │ 'sqlite'     │ 1       │ 502           │ '499-503'      │ 0              │ 3.4    │ 0      │ true        │ '2'  │
+│ 1       │ 'disjoint' │ 'sqlite'     │ 2       │ 497           │ '494-507'      │ 0.15           │ 4      │ 0      │ true        │ '2'  │
+│ 2       │ 'disjoint' │ 'sqlite'     │ 4       │ 493           │ '487-500'      │ 0.48           │ 7.5    │ 0      │ true        │ '2'  │
+│ 3       │ 'disjoint' │ 'sqlite'     │ 8       │ 192           │ '183-402'      │ 2.87           │ 882.3  │ 0      │ true        │ '2'  │
+│ 4       │ 'disjoint' │ 'turso-wal'  │ 1       │ 448           │ '440-455'      │ 0              │ 3.5    │ 0      │ true        │ '2'  │
+│ 5       │ 'disjoint' │ 'turso-wal'  │ 2       │ 437           │ '436-446'      │ 0.18           │ 13.8   │ 0      │ true        │ '2'  │
+│ 6       │ 'disjoint' │ 'turso-wal'  │ 4       │ 432           │ '423-435'      │ 0.53           │ 255.4  │ 0      │ true        │ '2'  │
+│ 7       │ 'disjoint' │ 'turso-wal'  │ 8       │ 253           │ '147-261'      │ 1.75           │ 589    │ 0      │ true        │ '2'  │
+│ 8       │ 'disjoint' │ 'turso-mvcc' │ 1       │ 442           │ '442-465'      │ 0              │ 3.6    │ 0      │ true        │ '2'  │
+│ 9       │ 'disjoint' │ 'turso-mvcc' │ 2       │ 529           │ '528-538'      │ 0              │ 5.5    │ 0      │ true        │ '2'  │
+│ 10      │ 'disjoint' │ 'turso-mvcc' │ 4       │ 550           │ '493-797'      │ 0              │ 11.5   │ 0      │ true        │ '2'  │
+│ 11      │ 'disjoint' │ 'turso-mvcc' │ 8       │ 1722          │ '1709-1781'    │ 0              │ 6.3    │ 0      │ true        │ '2'  │
+│ 12      │ 'hot'      │ 'sqlite'     │ 1       │ 471           │ '462-490'      │ 0              │ 3.4    │ 0      │ true        │ '2'  │
+│ 13      │ 'hot'      │ 'sqlite'     │ 2       │ 461           │ '461-467'      │ 0.17           │ 4.8    │ 0      │ true        │ '2'  │
+│ 14      │ 'hot'      │ 'sqlite'     │ 4       │ 282           │ '196-337'      │ 0.9            │ 332.2  │ 0      │ true        │ '2'  │
+│ 15      │ 'hot'      │ 'sqlite'     │ 8       │ 497           │ '495-500'      │ 1.1            │ 113.9  │ 0      │ true        │ '2'  │
+│ 16      │ 'hot'      │ 'turso-wal'  │ 1       │ 432           │ '413-448'      │ 0              │ 3.6    │ 0      │ true        │ '2'  │
+│ 17      │ 'hot'      │ 'turso-wal'  │ 2       │ 428           │ '424-440'      │ 0.18           │ 20.9   │ 0      │ true        │ '2'  │
+│ 18      │ 'hot'      │ 'turso-wal'  │ 4       │ 415           │ '413-441'      │ 0.55           │ 146    │ 0      │ true        │ '2'  │
+│ 19      │ 'hot'      │ 'turso-wal'  │ 8       │ 140           │ '122-382'      │ 3.81           │ 898.7  │ 0      │ true        │ '2'  │
+│ 20      │ 'hot'      │ 'turso-mvcc' │ 1       │ 436           │ '434-448'      │ 0              │ 3.5    │ 0      │ true        │ '2'  │
+│ 21      │ 'hot'      │ 'turso-mvcc' │ 2       │ 422           │ '409-429'      │ 0.18           │ 92.6   │ 0      │ true        │ '2'  │
+│ 22      │ 'hot'      │ 'turso-mvcc' │ 4       │ 203           │ '126-396'      │ 0.98           │ 307.2  │ 0      │ true        │ '2'  │
+│ 23      │ 'hot'      │ 'turso-mvcc' │ 8       │ 417           │ '417-439'      │ 1.23           │ 493    │ 0      │ true        │ '2'  │
+│ 24      │ 'compute'  │ 'sqlite'     │ 1       │ 347           │ '339-348'      │ 0              │ 4.3    │ 0      │ true        │ '2'  │
+│ 25      │ 'compute'  │ 'sqlite'     │ 2       │ 332           │ '331-352'      │ 0.23           │ 5.5    │ 0      │ true        │ '2'  │
+│ 26      │ 'compute'  │ 'sqlite'     │ 4       │ 339           │ '334-342'      │ 0.69           │ 7.8    │ 0      │ true        │ '2'  │
+│ 27      │ 'compute'  │ 'sqlite'     │ 8       │ 328           │ '324-334'      │ 1.64           │ 257.9  │ 0      │ true        │ '2'  │
+│ 28      │ 'compute'  │ 'turso-wal'  │ 1       │ 306           │ '301-312'      │ 0              │ 4.5    │ 0      │ true        │ '2'  │
+│ 29      │ 'compute'  │ 'turso-wal'  │ 2       │ 309           │ '292-309'      │ 0.25           │ 20.1   │ 0      │ true        │ '2'  │
+│ 30      │ 'compute'  │ 'turso-wal'  │ 4       │ 291           │ '290-292'      │ 0.78           │ 511.9  │ 0      │ true        │ '2'  │
+│ 31      │ 'compute'  │ 'turso-wal'  │ 8       │ 288           │ '284-296'      │ 1.81           │ 964.5  │ 0      │ true        │ '2'  │
+│ 32      │ 'compute'  │ 'turso-mvcc' │ 1       │ 311           │ '293-314'      │ 0              │ 4.5    │ 0      │ true        │ '2'  │
+│ 33      │ 'compute'  │ 'turso-mvcc' │ 2       │ 540           │ '537-545'      │ 0              │ 4.9    │ 0      │ true        │ '2'  │
+│ 34      │ 'compute'  │ 'turso-mvcc' │ 4       │ 1011          │ '928-1053'     │ 0              │ 5.5    │ 0      │ true        │ '2'  │
+│ 35      │ 'compute'  │ 'turso-mvcc' │ 8       │ 1753          │ '1707-1772'    │ 0              │ 6.1    │ 0      │ true        │ '2'  │
+└─────────┴────────────┴──────────────┴─────────┴───────────────┴────────────────┴────────────────┴────────┴────────┴─────────────┴──────┘

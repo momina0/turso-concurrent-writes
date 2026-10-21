@@ -1,0 +1,19 @@
+{
+  "name": "turso-concurrent-writes",
+  "version": "1.0.0",
+  "description": "Testing Turso's MVCC concurrent writes (BEGIN CONCURRENT) against SQLite on a laptop.",
+  "scripts": {
+    "bench-full": "node bench/run.mjs SYNC=FULL",
+    "bench-off": "node bench/run.mjs SYNC=OFF",
+    "summary": "node bench/summary.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@tursodatabase/database": "0.8.3"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  }
+}
